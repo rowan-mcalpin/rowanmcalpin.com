@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/rowanmcalpin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rowanmcalpin.com
+  * I am rowanmcalpin (https://keybase.io/rowanmcalpin) on keybase.
+  * I have a public key with fingerprint 0193 C865 CD19 3743 4FD5  6FD3 5BCC C0D2 6DE8 D9D4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012e007b7c1209cbbd609ff08be2d3a62c2cb3bb289c61a3b65e611a3ae8c8ac830a",
+      "fingerprint": "0193c865cd1937434fd56fd35bccc0d26de8d9d4",
+      "host": "keybase.io",
+      "key_id": "5bccc0d26de8d9d4",
+      "kid": "01012e007b7c1209cbbd609ff08be2d3a62c2cb3bb289c61a3b65e611a3ae8c8ac830a",
+      "uid": "a6eb3b8fa69b27f04d6dd2181097cf19",
+      "username": "rowanmcalpin"
+    },
+    "merkle_root": {
+      "ctime": 1729872213,
+      "hash_meta": "3cae5fff52bb4b96361a6be347a787636878f6adf5fffb76a60dbc5f533b8434",
+      "seqno": 26241902
+    },
+    "revoke": {
+      "sig_ids": [
+        "256ce028c61d36b4a10a98ab6d3f004ff330ddc5ec4269b8e17ec6d1960a296a0f"
+      ]
+    },
+    "service": {
+      "hostname": "rowanmcalpin.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1729872241,
+  "expire_in": 157680000,
+  "prev": "a8385d7d7d1df3e94ffdcaffefb673fa816cb41f49a2f2d3b61566fdb8fbafa4",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK1AnicrVNtiBVVGL4fu2pLRaxgYUQ01G7qdT0fM+ecuWARGuQfyV8V6V7P593p
+3jtznZld212XhP2R/9KULFqENksoyCAKQSldsmDdNA0NNeoGZVu2lVlEWtiZS0GE
+P5vzY86Zed7nfd7nfc/7NxVzXfmzL5z/4P65W5fnj009NZir3n5k06gjIjXslEed
+mm6/dF3pJK3UAuWUHQABRBoAKqiECPhSCEWAbwxgQiOFOUESSYGFQMyXBHIsiKcJ
+tBuumWRcMgy4U3JMEFZ13IyDMG3T+lgy4kllN9TFrlEeMQp7QkoJFCJKM+Ur1wYO
+REkWYcUJnui+ILLf7KHSlncd/P+se7BNx4m2WGY48QWiBriKKIUgg8Cn0kA/AyY6
+DnlDW3QcbeZhQ/J6MwidsZLT0HGtritxFKWZwTINMhikyGcUIYhtkTwZqDR0ym00
+llx7xhgPCeEKn2CrjgiNXcopo/bIKDOEK5OBBCWcACWkZzxsFVorrZZEbwojp4wI
+cqEPkJUQ66GoprPsSVC13iVO+XEHeURqgJitX2EiXA4B9xkXRGEDgGsMxkAp6Wnp
+Ils405BqSWzLCODIJxwYZ8NYli0eCmSbPGvWdUzok1HDymrGURrJqG7/DqRpMyln
+5qTDzQy+WYvK30QVEYTKjouNGNJxEkShNcsi/+ObC0uOfrIZxLoSZAiPEgbsk+XR
+Q1nTGGaeonZBZbD2bUFKcmO0EYRiwxkkUrjQuD5Hxs6EINAjdgptnwU3/N9G2lQp
+r1pO617I08FYO2NTh9d35PJduXmdhewe5bpuuOWf2zVwev61kXrHw7On3JPvbO3H
+V/94d2/3Sti6e2Pn3J7ZdeLP1a+X8yiauW8CTAZnZ77eNXHu6b1vPvpe8YtKfvez
+D7x98PmN9yw6v312xc79K0o36z20sO/XA737Lj4oL60ZgefE8QIFWy79Pm9rx3PL
+i4se6zn0an/XjgOL03tXBRMfjy8r9X8r908d+m7tgtfuah27fPHHq30nPh1pjd/5
+y+zqbdt61m35Cl6YvK34/fTh1pdHusEbz6xEVxYUhlcdDXtfeak2uQT3tJa9WN31
+8zdrPlo7+PnRxZMzO354ZHr3zpGx0dMPaWf6wzMXnljf+OzyySt3kO6Dxd4lL19b
+WtN9v3WOnxotfDL301sLz2y/8S+dao4Q
+=iHQt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rowanmcalpin
+
+==================================================================

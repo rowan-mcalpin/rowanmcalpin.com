@@ -89,8 +89,13 @@ footer {
     text-align: right;
 }
 
+
 @media screen and (max-width: 1000px) {
     .page {
         width: 95%;
+    }
+
+    footer {
+        margin-right: 2.5%;
     }
 }
