@@ -1,17 +1,108 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ROBOTO -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rowan McAlpin</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/8abd6aeab8.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="profile">
+    <img src="assets/headshot.jpg" id="headshot"  alt=""/>
+    <h1 class="nameplate">Rowan McAlpin</h1>
+    <table class="profile-links">
+        <tr>
+            <td><a href="https://github.com/rowan-mcalpin" target="_blank" class="black-link"><i class="fa-brands fa-xl fa-github"></i></a></td>
+            <td><i class="fa-icon-spacer"></i></td>
+            <td><a href="mailto:contact@rowanmcalpin.com" target="_blank" class="black-link"><i class="fa-solid fa-xl fa-envelope"></i></a></td>
+            <td><i class="fa-icon-spacer"></i></td>
+            <td><a href="https://www.linkedin.com/in/rowan-mcalpin/" target="_blank" class="black-link"><i class="fa-brands fa-xl fa-linkedin"></i></a></td>
+            <td><i class="fa-icon-spacer"></i></td>
+            <td><a href="assets/resume-TEMP.pdf" target="_blank" class="black-link"><i class="fa-solid fa-xl fa-file"></i></a></td>
+        </tr>
+    </table>
 
-    <title>Rowan McAlpin</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <nav class="nav mobile-hidden">
+        <ul>
+            <li><a href="#nextftc" class="nav-link black-link">NextFTC</a></li>
+            <li><a href="#robotics" class="nav-link black-link">Competitive Robotics</a></li>
+        </ul>
+    </nav>
+
+    <i class="fa-solid fa-2xl fa-arrow-down desktop-hidden scroll-fade"></i>
+</section>
+
+<section class="content">
+    <div class="intro">
+        <h1>Student & Engineer. Open-source enthusiast.</h1>
+        <p>I'm an incoming Engineering student at the <a href="https://www.washington.edu/about/seattle-campus/" target="_blank">University
+            of Washington</a> and a robotics designer & programmer based in Seattle. I specialize in Kotlin and Java,
+            and bridging the gap between hardware systems and easy-to-use software libraries.</p>
+    </div>
+
+    <h1>Selected Projects</h1>
+
+    <div class="project" id="nextftc">
+        <h2>NextFTC</h2>
+
+        <p>NextFTC is a software library that I've written & maintained since 2022. It aims to improve the development
+            process for programming <a href="https://www.firstinspires.org/programs/ftc/" target="_blank">FIRST®
+                Tech Challenge</a> robots by introducing an asynchronous system known as Commands.</p>
+        <p>NextFTC has been successfully used at all levels of competition including at the World Championship,
+            and is currently used by over 90 teams across at least 9 countries. My role as the founder of NextFTC has
+            changed over time, shifting from the sole developer to a managerial position, coordinating multiple other
+            developers and contributors.</p>
+
+        <div class="project-links">
+            <p>
+                <a href="https://github.com/NextFTC/" target="_blank">View the GitHub page</a> <br />
+                <a href="https://nextftc.dev/" target="_blank">Read the docs</a>
+            </p>
+        </div>
+
+        <ul class="tags">
+            <li>Kotlin</li>
+            <li>Open Source</li>
+            <li>Project Management</li>
+        </ul>
+    </div>
+    <div class="project" id="robotics">
+        <h2>Competitive Robotics</h2>
+
+        <p>Led & coordinated the design and programming of robots for two high school robotics teams:
+            <a href="https://www.firstinspires.org/programs/ftc" target="_blank">FIRST Tech Challenge</a> team 3805
+            Atomic Robotics, and <a href="https://www.firstinspires.org/programs/frc" target="_blank">FIRST Robotics Competition</a>
+            (FRC) team 1778 Chill Out. Achieved an average of 95.52 percentile for autonomous code across 5 years of
+            competing with FIRST Tech Challenge, and led 1778 Chill Out through the fourth-best year in its 20-year history.</p>
+        <p>Mentored & assisted other teams with their own competitive codebases, providing support and feedback
+            regarding optimization and assisted with debugging issues. </p>
+
+        <div class="project-links">
+            <p>
+                <a href="https://github.com/FIRST1778/2026-Robot-Code-Public" target="_blank">FRC Code</a>
+            </p>
+        </div>
+
+        <ul class="tags">
+            <li>Kotlin</li>
+            <li>Project Management</li>
+            <li>Leadership</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <a href="identity.html" class="black-link">Identity</a>
+    <cite id="copyright">&copy; 2026 Rowan McAlpin</cite>
+</footer>
+</body>
 </html>

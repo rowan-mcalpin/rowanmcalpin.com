@@ -1,0 +1,26 @@
+:root {
+    --dark-green: #397962;
+    --tan: #F7E1D7;
+    --dark-grey: #202229;
+    --light-purple: #C5B9D0;
+    --light-green: #9AB99C;
+}
+
+body {
+    background-color: var(--tan);
+
+    font-family: "Manrope", sans-serif;
+
+}
+
+h1, h2 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.monospace {
+    font-family: "Google Sans Code", monospace;
+    background-color: var(--dark-grey);
+    color: var(--light-purple);
+    padding: 5px;
+    border-radius: 5px;
+}
