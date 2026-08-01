@@ -23,4 +23,6 @@ h1, h2 {
     color: var(--light-purple);
     padding: 5px;
     border-radius: 5px;
+    overflow: scroll;
+    text-wrap: nowrap;
 }
