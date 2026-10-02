@@ -142,6 +142,7 @@ nav li {
     border-radius: 2%;
     background-color: var(--dark-grey);
     color: var(--light-purple);
+    max-width: 1200px;
 }
 
 .project-image img {
